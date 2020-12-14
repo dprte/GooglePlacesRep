@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GoogleApi" Version="3.10.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="PostSharp" Version="6.7.12" />
+    <PackageReference Include="PostSharp.Redist" Version="6.7.12" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aircash.Data.Model\Aircash.Data.Model.csproj" />
+    <ProjectReference Include="..\Aircash.Data.Repository\Aircash.Data.Repository.csproj" />
+    <ProjectReference Include="..\Aircash.Interface\Aircash.Interface.csproj" />
+    <ProjectReference Include="..\Aircash.Shared.Components\Aircash.Shared.Components.csproj" />
+    <ProjectReference Include="..\Aircash.Utils.AOP\Aircash.Utils.AOP.csproj" />
+  </ItemGroup>
+
+</Project>

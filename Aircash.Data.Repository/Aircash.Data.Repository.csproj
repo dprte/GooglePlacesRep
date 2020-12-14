@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aircash.Data.Model\Aircash.Data.Model.csproj" />
+    <ProjectReference Include="..\Aircash.Data.ORM\Aircash.Data.ORM.csproj" />
+    <ProjectReference Include="..\Aircash.Interface\Aircash.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

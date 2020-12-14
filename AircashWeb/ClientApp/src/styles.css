@@ -1,0 +1,89 @@
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+  position: absolute;
+}
+.autocomplete {
+  top: 5%;
+  width: 100px;
+}
+
+#map {
+  height: 350px;
+  margin-left: auto;
+  overflow: scroll;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.example-container {
+  /*display: flex;*/
+  position: absolute;
+  right: 5px;
+  top: 60%;
+  margin-top: -195px;
+  margin-right:auto;
+  height: 330px;
+  /*width: 200px;*/
+  padding: 5px;
+  z-index: 5;
+  border: 1px solid #999;
+  flex-direction: column;
+  /*min-width: 300px;*/
+}
+
+.example-header {
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  /*width: 200px;*/
+  background: #fff;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 200px;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mat-table {
+  overflow: auto;
+ /* max-height: 100px;*/
+  padding: 0;
+  margin: 0;
+  height: 195px;
+  /*width: 200px;*/
+  /*overflow-y: scroll;*/
+}
+
+
+agm-map {
+  height: 400px;
+}
+
+.autocomplete-container {
+  padding: 1rem 0 1rem 0;
+  width: 50%;
+}
