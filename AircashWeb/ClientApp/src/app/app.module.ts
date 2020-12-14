@@ -40,7 +40,7 @@ const appRoutes: Routes = [
       { path: 'google-place', component: GooglePlaceComponent },
     ]),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB_4x15ATP7Br_fRJpb215UGhsL519cwPA',
+      apiKey: 'YourKey',
       libraries: ['places']
     }),
     HttpClientModule,
